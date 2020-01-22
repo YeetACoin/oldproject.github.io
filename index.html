@@ -1,1144 +1,623 @@
 <!DOCTYPE html>
-<!--[if lt IE 9]><html lang="de-CH" class="no-js lt-ie11 lt-ie10 lt-ie9 ie" prefix="og: http://ogp.me/ns#"><![endif]-->
-<!--[if IE 9]><html itemscope itemtype="http://schema.org/WebPage" lang="de-CH" class="no-js lt-ie11 lt-ie10 ie" prefix="og: http://ogp.me/ns#"><![endif]-->
-<!--[if gt IE 9]><html itemscope itemtype="http://schema.org/WebPage" lang="de-CH" class="no-js" prefix="og: http://ogp.me/ns#"><![endif]-->
-<!--[if !IE]><script>if(document.documentMode){document.documentElement.className+=' lt-ie'+(document.documentMode+1)+' ie';}</script><![endif]-->
+
+<html  dir="ltr" lang="de" xml:lang="de">
 <head>
+    <title>Gymnasium Immensee</title>
+    <link rel="shortcut icon" href="https://lernportal.gymnasium-immensee.ch/theme/image.php/boost/theme/1577483271/favicon" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="moodle, Gymnasium Immensee" />
+<link rel="stylesheet" type="text/css" href="https://lernportal.gymnasium-immensee.ch/theme/yui_combo.php?rollup/3.17.2/yui-moodlesimple-min.css" /><script id="firstthemesheet" type="text/css">/** Required in order to fix style inclusion problems in IE with YUI **/</script><link rel="stylesheet" type="text/css" href="https://lernportal.gymnasium-immensee.ch/theme/styles.php/boost/1577483271_1/all" />
+<script type="text/javascript">
+//<![CDATA[
+var M = {}; M.yui = {};
+M.pageloadstarttime = new Date();
+M.cfg = {"wwwroot":"https:\/\/lernportal.gymnasium-immensee.ch","sesskey":"rXbYInfO3h","sessiontimeout":"7200","themerev":"1577483271","slasharguments":1,"theme":"boost","iconsystemmodule":"core\/icon_system_fontawesome","jsrev":"1577483247","admin":"admin","svgicons":true,"usertimezone":"Europa\/Z\u00fcrich","contextid":2,"langrev":1579575623,"templaterev":"1577483267"};var yui1ConfigFn = function(me) {if(/-skin|reset|fonts|grids|base/.test(me.name)){me.type='css';me.path=me.path.replace(/\.js/,'.css');me.path=me.path.replace(/\/yui2-skin/,'/assets/skins/sam/yui2-skin')}};
+var yui2ConfigFn = function(me) {var parts=me.name.replace(/^moodle-/,'').split('-'),component=parts.shift(),module=parts[0],min='-min';if(/-(skin|core)$/.test(me.name)){parts.pop();me.type='css';min=''}
+if(module){var filename=parts.join('-');me.path=component+'/'+module+'/'+filename+min+'.'+me.type}else{me.path=component+'/'+component+'.'+me.type}};
+YUI_config = {"debug":false,"base":"https:\/\/lernportal.gymnasium-immensee.ch\/lib\/yuilib\/3.17.2\/","comboBase":"https:\/\/lernportal.gymnasium-immensee.ch\/theme\/yui_combo.php?","combine":true,"filter":null,"insertBefore":"firstthemesheet","groups":{"yui2":{"base":"https:\/\/lernportal.gymnasium-immensee.ch\/lib\/yuilib\/2in3\/2.9.0\/build\/","comboBase":"https:\/\/lernportal.gymnasium-immensee.ch\/theme\/yui_combo.php?","combine":true,"ext":false,"root":"2in3\/2.9.0\/build\/","patterns":{"yui2-":{"group":"yui2","configFn":yui1ConfigFn}}},"moodle":{"name":"moodle","base":"https:\/\/lernportal.gymnasium-immensee.ch\/theme\/yui_combo.php?m\/1577483247\/","combine":true,"comboBase":"https:\/\/lernportal.gymnasium-immensee.ch\/theme\/yui_combo.php?","ext":false,"root":"m\/1577483247\/","patterns":{"moodle-":{"group":"moodle","configFn":yui2ConfigFn}},"filter":null,"modules":{"moodle-core-notification":{"requires":["moodle-core-notification-dialogue","moodle-core-notification-alert","moodle-core-notification-confirm","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-core-notification-dialogue":{"requires":["base","node","panel","escape","event-key","dd-plugin","moodle-core-widget-focusafterclose","moodle-core-lockscroll"]},"moodle-core-notification-alert":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-confirm":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-exception":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-ajaxexception":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-event":{"requires":["event-custom"]},"moodle-core-languninstallconfirm":{"requires":["base","node","moodle-core-notification-confirm","moodle-core-notification-alert"]},"moodle-core-popuphelp":{"requires":["moodle-core-tooltip"]},"moodle-core-formchangechecker":{"requires":["base","event-focus","moodle-core-event"]},"moodle-core-lockscroll":{"requires":["plugin","base-build"]},"moodle-core-dragdrop":{"requires":["base","node","io","dom","dd","event-key","event-focus","moodle-core-notification"]},"moodle-core-tooltip":{"requires":["base","node","io-base","moodle-core-notification-dialogue","json-parse","widget-position","widget-position-align","event-outside","cache-base"]},"moodle-core-maintenancemodetimer":{"requires":["base","node"]},"moodle-core-handlebars":{"condition":{"trigger":"handlebars","when":"after"}},"moodle-core-blocks":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification"]},"moodle-core-actionmenu":{"requires":["base","event","node-event-simulate"]},"moodle-core-chooserdialogue":{"requires":["base","panel","moodle-core-notification"]},"moodle-core_availability-form":{"requires":["base","node","event","event-delegate","panel","moodle-core-notification-dialogue","json"]},"moodle-backup-backupselectall":{"requires":["node","event","node-event-simulate","anim"]},"moodle-backup-confirmcancel":{"requires":["node","node-event-simulate","moodle-core-notification-confirm"]},"moodle-course-management":{"requires":["base","node","io-base","moodle-core-notification-exception","json-parse","dd-constrain","dd-proxy","dd-drop","dd-delegate","node-event-delegate"]},"moodle-course-formatchooser":{"requires":["base","node","node-event-simulate"]},"moodle-course-categoryexpander":{"requires":["node","event-key"]},"moodle-course-modchooser":{"requires":["moodle-core-chooserdialogue","moodle-course-coursebase"]},"moodle-course-util":{"requires":["node"],"use":["moodle-course-util-base"],"submodules":{"moodle-course-util-base":{},"moodle-course-util-section":{"requires":["node","moodle-course-util-base"]},"moodle-course-util-cm":{"requires":["node","moodle-course-util-base"]}}},"moodle-course-dragdrop":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification","moodle-course-coursebase","moodle-course-util"]},"moodle-form-shortforms":{"requires":["node","base","selector-css3","moodle-core-event"]},"moodle-form-passwordunmask":{"requires":[]},"moodle-form-dateselector":{"requires":["base","node","overlay","calendar"]},"moodle-question-preview":{"requires":["base","dom","event-delegate","event-key","core_question_engine"]},"moodle-question-chooser":{"requires":["moodle-core-chooserdialogue"]},"moodle-question-searchform":{"requires":["base","node"]},"moodle-availability_completion-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_date-form":{"requires":["base","node","event","io","moodle-core_availability-form"]},"moodle-availability_grade-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_group-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_grouping-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_profile-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-mod_assign-history":{"requires":["node","transition"]},"moodle-mod_quiz-toolboxes":{"requires":["base","node","event","event-key","io","moodle-mod_quiz-quizbase","moodle-mod_quiz-util-slot","moodle-core-notification-ajaxexception"]},"moodle-mod_quiz-util":{"requires":["node","moodle-core-actionmenu"],"use":["moodle-mod_quiz-util-base"],"submodules":{"moodle-mod_quiz-util-base":{},"moodle-mod_quiz-util-slot":{"requires":["node","moodle-mod_quiz-util-base"]},"moodle-mod_quiz-util-page":{"requires":["node","moodle-mod_quiz-util-base"]}}},"moodle-mod_quiz-autosave":{"requires":["base","node","event","event-valuechange","node-event-delegate","io-form"]},"moodle-mod_quiz-questionchooser":{"requires":["moodle-core-chooserdialogue","moodle-mod_quiz-util","querystring-parse"]},"moodle-mod_quiz-quizbase":{"requires":["base","node"]},"moodle-mod_quiz-dragdrop":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification","moodle-mod_quiz-quizbase","moodle-mod_quiz-util-base","moodle-mod_quiz-util-page","moodle-mod_quiz-util-slot","moodle-course-util"]},"moodle-mod_quiz-modform":{"requires":["base","node","event"]},"moodle-message_airnotifier-toolboxes":{"requires":["base","node","io"]},"moodle-filter_glossary-autolinker":{"requires":["base","node","io-base","json-parse","event-delegate","overlay","moodle-core-event","moodle-core-notification-alert","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-filter_mathjaxloader-loader":{"requires":["moodle-core-event"]},"moodle-editor_atto-rangy":{"requires":[]},"moodle-editor_atto-editor":{"requires":["node","transition","io","overlay","escape","event","event-simulate","event-custom","node-event-html5","node-event-simulate","yui-throttle","moodle-core-notification-dialogue","moodle-core-notification-confirm","moodle-editor_atto-rangy","handlebars","timers","querystring-stringify"]},"moodle-editor_atto-plugin":{"requires":["node","base","escape","event","event-outside","handlebars","event-custom","timers","moodle-editor_atto-menu"]},"moodle-editor_atto-menu":{"requires":["moodle-core-notification-dialogue","node","event","event-custom"]},"moodle-report_eventlist-eventfilter":{"requires":["base","event","node","node-event-delegate","datatable","autocomplete","autocomplete-filters"]},"moodle-report_loglive-fetchlogs":{"requires":["base","event","node","io","node-event-delegate"]},"moodle-gradereport_grader-gradereporttable":{"requires":["base","node","event","handlebars","overlay","event-hover"]},"moodle-gradereport_history-userselector":{"requires":["escape","event-delegate","event-key","handlebars","io-base","json-parse","moodle-core-notification-dialogue"]},"moodle-tool_capability-search":{"requires":["base","node"]},"moodle-tool_lp-dragdrop-reorder":{"requires":["moodle-core-dragdrop"]},"moodle-tool_monitor-dropdown":{"requires":["base","event","node"]},"moodle-assignfeedback_editpdf-editor":{"requires":["base","event","node","io","graphics","json","event-move","event-resize","transition","querystring-stringify-simple","moodle-core-notification-dialog","moodle-core-notification-alert","moodle-core-notification-warning","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-atto_accessibilitychecker-button":{"requires":["color-base","moodle-editor_atto-plugin"]},"moodle-atto_accessibilityhelper-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_align-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_bold-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_charmap-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_clear-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_collapse-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_emojipicker-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_emoticon-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_equation-button":{"requires":["moodle-editor_atto-plugin","moodle-core-event","io","event-valuechange","tabview","array-extras"]},"moodle-atto_h5p-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_html-beautify":{},"moodle-atto_html-button":{"requires":["promise","moodle-editor_atto-plugin","moodle-atto_html-beautify","moodle-atto_html-codemirror","event-valuechange"]},"moodle-atto_html-codemirror":{"requires":["moodle-atto_html-codemirror-skin"]},"moodle-atto_image-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_indent-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_italic-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_link-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_managefiles-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_managefiles-usedfiles":{"requires":["node","escape"]},"moodle-atto_media-button":{"requires":["moodle-editor_atto-plugin","moodle-form-shortforms"]},"moodle-atto_noautolink-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_orderedlist-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_recordrtc-button":{"requires":["moodle-editor_atto-plugin","moodle-atto_recordrtc-recording"]},"moodle-atto_recordrtc-recording":{"requires":["moodle-atto_recordrtc-button"]},"moodle-atto_rtl-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_strike-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_subscript-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_superscript-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_table-button":{"requires":["moodle-editor_atto-plugin","moodle-editor_atto-menu","event","event-valuechange"]},"moodle-atto_title-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_underline-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_undo-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_unorderedlist-button":{"requires":["moodle-editor_atto-plugin"]}}},"gallery":{"name":"gallery","base":"https:\/\/lernportal.gymnasium-immensee.ch\/lib\/yuilib\/gallery\/","combine":true,"comboBase":"https:\/\/lernportal.gymnasium-immensee.ch\/theme\/yui_combo.php?","ext":false,"root":"gallery\/1577483247\/","patterns":{"gallery-":{"group":"gallery"}}}},"modules":{"core_filepicker":{"name":"core_filepicker","fullpath":"https:\/\/lernportal.gymnasium-immensee.ch\/lib\/javascript.php\/1577483247\/repository\/filepicker.js","requires":["base","node","node-event-simulate","json","async-queue","io-base","io-upload-iframe","io-form","yui2-treeview","panel","cookie","datatable","datatable-sort","resize-plugin","dd-plugin","escape","moodle-core_filepicker","moodle-core-notification-dialogue"]},"core_comment":{"name":"core_comment","fullpath":"https:\/\/lernportal.gymnasium-immensee.ch\/lib\/javascript.php\/1577483247\/comment\/comment.js","requires":["base","io-base","node","json","yui2-animation","overlay","escape"]},"mathjax":{"name":"mathjax","fullpath":"https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/mathjax\/2.7.2\/MathJax.js?delayStartupUntil=configured"}}};
+M.yui.loader = {modules: {}};
 
-<meta charset="utf-8">
-<!-- 
-	concept, design and production by Netvertising AG, Zurich, Switzerland
+//]]>
+</script>
 
-	This website is powered by TYPO3 - inspiring people to share!
-	TYPO3 is a free open source Content Management Framework initially created by Kasper Skaarhoj and licensed under GNU/GPL.
-	TYPO3 is copyright 1998-2018 of Kasper Skaarhoj. Extensions are copyright of their respective owners.
-	Information and contribution at https://typo3.org/
--->
-
-
-
-<title>Menuplan - Mensa Gymnasium Immensee</title>
-<meta name="generator" content="TYPO3 CMS">
-<meta property="og:type" content="website">
-<meta name="viewport" content="width=device-width, user-scalable=yes, minimum-scale=1.0, initial-scale=1.0">
-<meta name="msapplication-tap-highlight" content="no">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<meta name="robots" content="index,follow">
-<meta name="description" content="Abwechslungsreiche und feine Mittags- und Abendmenus ✔ grosses Salatbuffet ✔ Frühstück ✔ Täglich frisch zubereitet: Montag bis Freitag ➜ JETZT in Immensee GENIESSEN − Ihre Mensa mit Kaffeebar und Take-Away-Angebot.">
-<meta property="og:url" content="https://immensee.sv-restaurant.ch/de/menuplan/">
-<meta property="og:title" content="Menuplan">
-<meta property="og:description" content="Abwechslungsreiche und feine Mittags- und Abendmenus ✔ grosses Salatbuffet ✔ Frühstück ✔ Täglich frisch zubereitet: Montag bis Freitag ➜ JETZT in Immensee GENIESSEN − Ihre Mensa mit Kaffeebar und Take-Away-Angebot.">
-<meta property="og:site_name" content="Mensa Gymnasium Immensee">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:description" content="Abwechslungsreiche und feine Mittags- und Abendmenus ✔ grosses Salatbuffet ✔ Frühstück ✔ Täglich frisch zubereitet: Montag bis Freitag ➜ JETZT in Immensee GENIESSEN − Ihre Mensa mit Kaffeebar und Take-Away-Angebot.">
-
-
-<link rel="stylesheet" type="text/css" href="/typo3temp/compressor/merged-b1ed12094a23f3f70a092d838d3b9390-f1389d9827c7168c5a819eabd4ec3c56.css.gzip?1574424216" media="all">
-
-
-
-
-			<script>
-				var reqBaseUrl="/typo3conf/ext/netv_svm_template/Resources/Public/dist/js/lib/", netvPageOptions = { 'templateRoot' : '/typo3conf/ext/netv_svm_template/Resources/Public/dist/' };;
-			</script><script src="/typo3temp/compressor/controller-f3059d36064c8c2c7e301b5ddb663be7.js.gzip?1572438104" type="text/javascript"></script>
-
-
-
-<script type="text/javascript">var requiredModules = ["jquery","jquery.shariff","jquery.googleanalytics"];</script>
-<script data-main="/typo3conf/ext/netv_svm_template/Resources/Public/dist/js/app.js?1575289883" src="/typo3conf/ext/netv_requirejs/Resources/Public/dist/js/lib/vendor/require.js" async></script>
-			<!--[if lte IE 9]>
-				<link rel="stylesheet" href="https://fast.fonts.net/t/1.css?apiType=css&projectid=19d2676c-b1fd-4c06-b6bc-0d6b66e3aaa9" media="all">
-			<![endif]--><meta itemprop="name" content="Menuplan - Mensa Gymnasium Immensee" />
-<link rel="icon" type="image/png" sizes="16x16" href="/typo3conf/ext/netv_svm_template/Resources/Public/media/images/icons/fav-touch/default/favicon/favicon-16x16.png?1504685003">
-<link rel="icon" type="image/png" sizes="32x32" href="/typo3conf/ext/netv_svm_template/Resources/Public/media/images/icons/fav-touch/default/favicon/favicon-32x32.png?1504685003">
-<link rel="icon" type="image/png" sizes="96x96" href="/typo3conf/ext/netv_svm_template/Resources/Public/media/images/icons/fav-touch/default/favicon/favicon-96x96.png?1504685003">
-<link rel="shortcut icon" href="/typo3conf/ext/netv_svm_template/Resources/Public/media/images/icons/fav-touch/default/favicon/favicon.ico?1504685003">
-<link rel="apple-touch-icon-precomposed" href="/typo3conf/ext/netv_svm_template/Resources/Public/media/images/icons/fav-touch/default/apple-touch-icons/apple-touch-icon-precomposed.png?1504685003">
-<link rel="apple-touch-icon-precomposed" sizes="60x60" href="/typo3conf/ext/netv_svm_template/Resources/Public/media/images/icons/fav-touch/default/apple-touch-icons/apple-touch-icon-60x60-precomposed.png?1504685003">
-<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/typo3conf/ext/netv_svm_template/Resources/Public/media/images/icons/fav-touch/default/apple-touch-icons/apple-touch-icon-72x72-precomposed.png?1504685003">
-<link rel="apple-touch-icon-precomposed" sizes="76x76" href="/typo3conf/ext/netv_svm_template/Resources/Public/media/images/icons/fav-touch/default/apple-touch-icons/apple-touch-icon-76x76-precomposed.png?1504685003">
-<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/typo3conf/ext/netv_svm_template/Resources/Public/media/images/icons/fav-touch/default/apple-touch-icons/apple-touch-icon-114x114-precomposed.png?1504685003">
-<link rel="apple-touch-icon-precomposed" sizes="120x120" href="/typo3conf/ext/netv_svm_template/Resources/Public/media/images/icons/fav-touch/default/apple-touch-icons/apple-touch-icon-120x120-precomposed.png?1504685003">
-<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/typo3conf/ext/netv_svm_template/Resources/Public/media/images/icons/fav-touch/default/apple-touch-icons/apple-touch-icon-144x144-precomposed.png?1504685003">
-<link rel="apple-touch-icon-precomposed" sizes="152x152" href="/typo3conf/ext/netv_svm_template/Resources/Public/media/images/icons/fav-touch/default/apple-touch-icons/apple-touch-icon-152x152-precomposed.png?1504685003">
-<link rel="apple-touch-icon-precomposed" sizes="180x180" href="/typo3conf/ext/netv_svm_template/Resources/Public/media/images/icons/fav-touch/default/apple-touch-icons/apple-touch-icon-180x180-precomposed.png?1504685003">
-<link rel="apple-touch-icon-precomposed" sizes="192x192" href="/typo3conf/ext/netv_svm_template/Resources/Public/media/images/icons/fav-touch/default/apple-touch-icons/apple-touch-icon-192x192-precomposed.png?1504685003">
-<link rel="manifest" href="/typo3conf/ext/netv_svm_template/Resources/Public/media/images/icons/fav-touch/default/android/manifest.json?1504685003">
-<meta name="msapplication-config" content="/typo3conf/ext/netv_svm_template/Resources/Public/media/images/icons/fav-touch/default/mstile/browserconfig.xml?1504685003">
-<meta itemprop="description" content="Abwechslungsreiche und feine Mittags- und Abendmenus ✔ grosses Salatbuffet ✔ Frühstück ✔ Täglich frisch zubereitet: Montag bis Freitag ➜ JETZT in Immensee GENIESSEN − Ihre Mensa mit Kaffeebar und Take-Away-Angebot." />
-<script type="text/javascript">requiredModules.push("jquery.slick.controller");requiredModules.push("jquery.overlay");requiredModules.push("jquery.resizeTitles");</script>
-<script type="text/javascript">requiredModules.push("jquery.vote-menu-form");</script>
-
-<script type="text/javascript">requiredModules.push("jquery.newsletter");</script>
-<script type="text/javascript">requiredModules.push("jquery.menuplan");</script>
-<script type="text/javascript">requiredModules.push("iframe-resizer");</script>
-<script type="text/javascript">requiredModules.push("iframeresize");</script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
-<body class="de " id="pageid-9277">
+<body  id="page-site-index" class="format-site course path-site gecko dir-ltr lang-de yui-skin-sam yui3-skin-sam lernportal-gymnasium-immensee-ch pagelayout-frontpage course-1 context-2 notloggedin ">
+<div class="toast-wrapper mx-auto py-3 fixed-top" role="status" aria-live="polite"></div>
 
-<div id="browsermessages"><!--[if lte IE 9]><div class="browsermessage nojs"><div class="items"><div class="items-row"><div class="row-item icon"></div><div class="row-item text"><div class="header">Website nur eingeschränkt nutzbar</div><div class="message">Sie surfen mit einem veralteten Webbrowser</div></div></div></div></div><![endif]--><noscript><div class="browsermessage"><div class="items"><div class="items-row"><div class="row-item icon"></div><div class="row-item text"><div class="header" data-text="Website nur eingeschränkt nutzbar"></div><div class="message" data-text="Bitte aktivieren Sie Javascript, um die Website uneingeschränkt nutzen zu können."></div></div></div></div></div></noscript><div class="browsermessage"><div class="items"><div class="items-row cookies"><div class="row-item icon"></div><div class="row-item text"><div class="header" data-text="Website nur eingeschränkt nutzbar"></div><div class="message" data-text="Bitte aktivieren Sie Cookies, um die Website uneingeschränkt nutzen zu können."></div></div></div></div></div></div><div id="l-pagewrapper"><div id="l-container"><header id="l-header" class="l-header"><div id="navbar"><div class="l-constrained l-wide"><div class="logo-wrap"><a href="/de/menuplan/"><img src="/typo3conf/ext/netv_svm_template/Resources/Public/media/images/logos/default/logo-header.svg" alt="SV Restaurant" /></a></div><div class="name-wrap"><a href="/de/menuplan/">
-					Mensa Gymnasium Immensee
-				</a></div><div class="nav-trigger-wrap"><a target="_self" onclick="netvLib.mainnav.trigger(this, event);"><span class="lines"></span></a></div></div></div><div id="header-content"><!-- this plugin registered jquery.slick.controller,jquery.overlay,jquery.resizeTitles for RequireJS --><!-- this plugin registered jquery.vote-menu-form for RequireJS --><div class="slideshow loading"><img class="preloader" src="/typo3conf/ext/netv_svm_template/Resources/Public/media/images/preloader.svg" alt="Laden..."><div class="slick-slider"><!-- HEADERCAMPAINS (from fileadmin/content/headercampaigns) -->
-<!-- BANNERS MENUOFDESIRE WUNSCHMENU (RMADMIN) --><!-- BANNERADS (CMS global, prio >= 80) -->
+<div id="page-wrapper" class="d-print-block">
 
-
-		
-	
-<!-- BANNERADS (Fresh & healthy FRISCH UND GESUND) -->
-	
-		<a href="/de/frisch-gesund/" class="single-slide">
-			
-	<picture class="background">
-		<source srcset="/fileadmin/_processed_/5/3/csm_01_02_ac5b36291c.jpg, /fileadmin/_processed_/5/3/csm_01_02_8edb384aaa.jpg 2x" media="(min-width: 769px)" />
-		
-				<source srcset="/fileadmin/_processed_/4/f/csm_01_02_mobile%402x_1171ec939a.jpg, /fileadmin/_processed_/4/f/csm_01_02_mobile%402x_565411e1e3.jpg 2x" media="(max-width: 768px)" />
-			
-		<img src="/fileadmin/_processed_/5/3/csm_01_02_ac5b36291c.jpg" alt="Frisch & gesund"/>
-	</picture>
-
-<div class="slide-content-wrap">
-	<div class="slide-content type1" style="background-color: rgba(89, 156, 46, .7);">
-		<h3>Frisch & gesund</h3>
-		<span class="separator"></span>
-		<span class="additional">Mehr erfahren</span>
-	</div>
-</div>
-		</a>
-	
+    <div>
+    <a class="sr-only sr-only-focusable" href="#maincontent">Zum Hauptinhalt</a>
+</div><script type="text/javascript" src="https://lernportal.gymnasium-immensee.ch/lib/javascript.php/1577483247/lib/babel-polyfill/polyfill.min.js"></script>
+<script type="text/javascript" src="https://lernportal.gymnasium-immensee.ch/lib/javascript.php/1577483247/lib/mdn-polyfills/polyfill.js"></script>
+<script type="text/javascript" src="https://lernportal.gymnasium-immensee.ch/theme/yui_combo.php?rollup/3.17.2/yui-moodlesimple-min.js"></script><script type="text/javascript" src="https://lernportal.gymnasium-immensee.ch/lib/javascript.php/1577483247/lib/javascript-static.js"></script>
+<script type="text/javascript">
+//<![CDATA[
+document.body.className += ' jsenabled';
+//]]>
+</script>
 
 
 
-<!-- BANNERS RMADMIN -->
-	
-		
-				<div class="single-slide">
-					
-						
-							
-
-<picture class="background">
-	<source srcset="/fileadmin/_processed_/7/e/csm_ganzjahr_vegetarisch_pancakes_desktop%402x_deab426fdd.jpg, /fileadmin/_processed_/7/e/csm_ganzjahr_vegetarisch_pancakes_desktop%402x_715c5f6155.jpg 2x" media="(min-width: 769px)" />
-
-	
-			<source srcset="/fileadmin/_processed_/1/f/csm_ganzjahr_vegetarisch_pancakes_mobile%402x_424969c79e.jpg, /fileadmin/_processed_/1/f/csm_ganzjahr_vegetarisch_pancakes_mobile%402x_fae65ad344.jpg 2x" media="(max-width: 768px)" />
-		
-	<img src="/fileadmin/_processed_/7/e/csm_ganzjahr_vegetarisch_pancakes_desktop%402x_deab426fdd.jpg" alt="Vegetarisch geniessen"/>
-</picture>
-<div class="slide-content-wrap">
-	<div class="slide-content type3" style="background-color: rgba(0,0,0,.4)">
-		
-			<h3>Vegetarisch geniessen</h3>
-		
-		
-			<p>
-				Fleischloser Genuss mit Schwärmpotenzial
-			</p>
-		
-		
-	</div>
-</div>
-
-						
-						
-						
-					
-				</div>
-			
-	
-
-	
-		
-				<div class="single-slide">
-					
-						
-						
-							
-
-<picture class="background">
-	<source srcset="/fileadmin/_processed_/3/5/csm_ganzjahr_icetea_desktop%402x_c867797488.jpg, /fileadmin/_processed_/3/5/csm_ganzjahr_icetea_desktop%402x_a656ccc9e9.jpg 2x" media="(min-width: 769px)" />
-
-	
-			<source srcset="/fileadmin/_processed_/e/f/csm_ganzjahr_icetea_mobile%402x_93c956f9be.jpg, /fileadmin/_processed_/e/f/csm_ganzjahr_icetea_mobile%402x_a93f7b9990.jpg 2x" media="(max-width: 768px)" />
-		
-	<img src="/fileadmin/_processed_/3/5/csm_ganzjahr_icetea_desktop%402x_c867797488.jpg" alt="Unser Ice Tea"/>
-</picture>
-<div class="slide-content-wrap">
-	<div class="slide-content type2" style="background-color: rgba(0,0,0,.4);">
-		
-			<h3>Unser Ice Tea</h3>
-		
-		
-			<p>
-				Frisch und hausgemacht – Dein Geschmack.
-			</p>
-		
-		
-	</div>
-</div>
-
-						
-						
-					
-				</div>
-			
-	
-
-	
-		
-				<div class="single-slide">
-					
-						
-						
-							
-
-<picture class="background">
-	<source srcset="/fileadmin/_processed_/3/2/csm_ganzjahr_brot_desktop%402x_8364b14b44.jpg, /fileadmin/_processed_/3/2/csm_ganzjahr_brot_desktop%402x_9d9689eefc.jpg 2x" media="(min-width: 769px)" />
-
-	
-			<source srcset="/fileadmin/user_upload/Green/00_RMAdmin_Banner_Sujets/01_Ganzj%C3%A4hrig/Mobile/ganzjahr_brot_mobile%402x.jpg, /fileadmin/user_upload/Green/00_RMAdmin_Banner_Sujets/01_Ganzj%C3%A4hrig/Mobile/ganzjahr_brot_mobile%402x.jpg 2x" media="(max-width: 768px)" />
-		
-	<img src="/fileadmin/_processed_/3/2/csm_ganzjahr_brot_desktop%402x_8364b14b44.jpg" alt="Frisch vom Beck"/>
-</picture>
-<div class="slide-content-wrap">
-	<div class="slide-content type2" style="background-color: rgba(0,0,0,.4);">
-		
-			<h3>Frisch vom Beck</h3>
-		
-		
-			<p>
-				Aus regionalem Weizen vom lokalen Bäcker – das knuspert!
-			</p>
-		
-		
-	</div>
-</div>
-
-						
-						
-					
-				</div>
-			
-	
-
-<!-- BANNERADS (CMS global, prio < 80) -->
-
-
-		
-	
-<!-- BANNERADS (CMS local) -->
-	
-		
-				<a href="/de/catering/" target="_self" class="single-slide">
-					
-						
-						
-							
-
-<picture class="background">
-	<source srcset="/fileadmin/_processed_/3/b/csm_ganzjahr_apero_desktop%402x_891a758632.jpg, /fileadmin/_processed_/3/b/csm_ganzjahr_apero_desktop%402x_da4148cf42.jpg 2x" media="(min-width: 769px)" />
-
-	
-			<source srcset="/fileadmin/_processed_/c/7/csm_ganzjahr_apero_mobile%402x_432c4f496d.jpg, /fileadmin/_processed_/c/7/csm_ganzjahr_apero_mobile%402x_81e4d9ad40.jpg 2x" media="(max-width: 768px)" />
-		
-	<img src="/fileadmin/_processed_/3/b/csm_ganzjahr_apero_desktop%402x_891a758632.jpg" alt="Catering"/>
-</picture>
-<div class="slide-content-wrap">
-	<div class="slide-content type2" style="background-color: rgba(0,0,0,.4)")}>
-		
-			<h3>Catering</h3>
-		
-		
-			<p>
-				Sei es für Ihren Apéro, Stehlunch oder feierlichen Anlass
-			</p>
-		
-		
-			<span class="separator"></span>
-			<span class="additional">
-				Zum Catering Angebot
-			</span>
-		
-	</div>
-</div>
-
-						
-						
-					
-				</a>
-			
-	
-
-</div><div class="slides-nav-container"></div></div></div></header><div id="mainnav"><div class="inner"><nav class="main"><ul class="no-bullets"><li><a href="/de/menuplan/" target="_self" class="act">Menuplan</a></li><li><a href="/de/catering/" target="_self">Catering</a></li><li><a href="/de/frisch-gesund/" target="_self">Frisch &amp; Gesund</a></li><li><a href="/de/ueber-uns/" target="_self">Über uns</a></li></ul></nav><nav class="meta"><ul class="no-bullets"><li><a href="/de/feedback/" target="_self">Feedback</a></li><li><a href="/de/kontakt/" target="_self">Kontakt</a></li><li><a href="/de/disclaimer/" target="_self">Disclaimer</a></li><li><a href="/de/datenschutzerklaerung/" target="_self">Datenschutzerklärung</a></li></ul></nav><nav class="mobile"><ul class="switch-restaurant no-bullets"><li><a href="#" onclick="netvLib.restaurantSwitcher.trigger(this, event);">Weitere Restaurants</a></li></ul></nav></div><nav class="parent"><ul class="no-bullets"><li><a href="http://www.sv-restaurant.ch/de/" target="_blank">www.sv-restaurant.ch</a></li></ul></nav></div><div id="restaurant-switcher"><a href="#" onclick="netvLib.restaurantSwitcher.trigger(this, event);">Weitere Restaurants</a></div><div id="restaurant-switcher-overlay"><a href="#" class="restaurant-switcher-close" onclick="netvLib.restaurantSwitcher.trigger(this, event);"><i></i></a><div class="map-wrap"><div class="title">
-						Öffentliche Restaurants in Ihrer Umgebung
-					</div><div class="map"><div class="googlemap" data-ajax-url="/de/menuplan/persrest-data.json"></div></div></div></div><main id="l-main" itemprop="mainContentOfPage"><div class="l-constrained l-full l-content"><div class="content content-list-"><a class="anchor" id="c50698"></a>
-
-
-
-
-<!-- this plugin registered jquery.newsletter for RequireJS -->
-<!-- this plugin registered jquery.menuplan for RequireJS -->
-
-<div class="menu-plan-wrap">
-	<div class="l-constrained l-special">
-		<div class="coe pagetitle">
-			<h1 class="title">Menuplan</h1>
-		</div>
-
-		
-
-		
-			<input id="mp-tab1" name="mp-tab" value="" checked type="radio">
-		
-			<input id="mp-tab2" name="mp-tab" value=""  type="radio">
-		
-			<input id="mp-tab3" name="mp-tab" value=""  type="radio">
-		
-			<input id="mp-tab4" name="mp-tab" value=""  type="radio">
-		
-			<input id="mp-tab5" name="mp-tab" value=""  type="radio">
-		
-
-		<div class="day-nav">
-			
-				<ul class="no-bullets is-horizontal">
-					
-						<li>
-							<label for="mp-tab1">
-								<span class="day">Mi</span>
-								<span class="date">22.01.</span>
-							</label>
-						</li>
-					
-						<li>
-							<label for="mp-tab2">
-								<span class="day">Do</span>
-								<span class="date">23.01.</span>
-							</label>
-						</li>
-					
-						<li>
-							<label for="mp-tab3">
-								<span class="day">Fr</span>
-								<span class="date">24.01.</span>
-							</label>
-						</li>
-					
-						<li>
-							<label for="mp-tab4">
-								<span class="day">Mo</span>
-								<span class="date">27.01.</span>
-							</label>
-						</li>
-					
-						<li>
-							<label for="mp-tab5">
-								<span class="day">Di</span>
-								<span class="date">28.01.</span>
-							</label>
-						</li>
-					
-				</ul>
-			
-		</div>
-
-		<div class="menu-plan-tabs">
-			
-					
-						<div id="menu-plan-tab1" class="menu-plan-grid">
-							
-								<div class="menu-item">
-									<div class="item-content">
-										
-										<h2 class="menu-title">Cannelloni Mediterraneo</h2>
-										<span class="divider"></span>
-										<p class="menu-description">gefüllt mit Zucchetti, Aubergine und Peperoni<br />
-überbacken mit Rahmsauce, Tomaten und Grana Padano<br />
-<br />
-an der Theke: geriebener Käse</p>
-										<div class="menu-prices prices-3">
-											
-										</div>
-										
-										<span class="menu-provenance"></span>
-										
-									</div>
-								</div>
-							
-								<div class="menu-item">
-									<div class="item-content">
-										
-										<h2 class="menu-title">Chili sin Carne</h2>
-										<span class="divider"></span>
-										<p class="menu-description">Sojagehacktes mit Tomaten, Mais und <br />
-Kidney Bohnen<br />
-dazu Fairtrade Langkornreis<br />
-<br />
-pimp up: rassigem Sojadip</p>
-										<div class="menu-prices prices-3">
-											
-										</div>
-										
-											<div class="menu-labels">
-												
-													
-		<span class="label label-vegan has-infobox">
-			<img class="onlyprint" src="/typo3conf/ext/netv_svm_template/Resources/Public/media/images/icons/print/vegan.png" width="121" height="121" alt="" />
-			<div class="label-info label-vegan ">
-				<a class="close" href="#"><i class="ico-close"></i></a>
-				<div class="inner">
-					<p>Vegan:<br />
-Auf Produkte und Zutaten tierischen Ursprungs wurde vollständig verzichtet.</p>
-					
-						
-						
-						
-						
-							
-						
-					
-				</div>
-			</div>
-		</span>
-	
-												
-												
-											</div>
-										
-										<span class="menu-provenance"></span>
-										
-									</div>
-								</div>
-							
-								<div class="menu-item">
-									<div class="item-content">
-										
-										<h2 class="menu-title">Grünes Thaicurry</h2>
-										<span class="divider"></span>
-										<p class="menu-description">mit Blumenkohl, Karotten, Lauch und Mungosprossen<br />
-Fairtrade Parfumreiskugel</p>
-										<div class="menu-prices prices-3">
-											
-										</div>
-										
-											<div class="menu-labels">
-												
-													
-		<span class="label label-vegan has-infobox">
-			<img class="onlyprint" src="/typo3conf/ext/netv_svm_template/Resources/Public/media/images/icons/print/vegan.png" width="121" height="121" alt="" />
-			<div class="label-info label-vegan ">
-				<a class="close" href="#"><i class="ico-close"></i></a>
-				<div class="inner">
-					<p>Vegan:<br />
-Auf Produkte und Zutaten tierischen Ursprungs wurde vollständig verzichtet.</p>
-					
-						
-						
-						
-						
-							
-						
-					
-				</div>
-			</div>
-		</span>
-	
-												
-												
-											</div>
-										
-										<span class="menu-provenance"></span>
-										
-									</div>
-								</div>
-							
-								<div class="menu-item">
-									<div class="item-content">
-										
-										<h2 class="menu-title">Café Complet</h2>
-										<span class="divider"></span>
-										<p class="menu-description">Naturejoghurt<br />
-Salatbuffet<br />
-und Cerealien<br />
-Hänggibrote<br />
-Kaffee- und Milchgetränke<br />
-Konfiture, Butter und Becel</p>
-										<div class="menu-prices prices-3">
-											
-										</div>
-										
-										<span class="menu-provenance"></span>
-										
-									</div>
-								</div>
-							
-								<div class="menu-item">
-									<div class="item-content">
-										
-										<h2 class="menu-title">Hörnlipfanne</h2>
-										<span class="divider"></span>
-										<p class="menu-description">mit oder ohne Speck<br />
-Rahmsauce, Käse und Ei</p>
-										<div class="menu-prices prices-3">
-											
-										</div>
-										
-										<span class="menu-provenance">Herkunft Fleisch: Schwein, Schweiz</span>
-										
-									</div>
-								</div>
-							
-						</div>
-					
-						<div id="menu-plan-tab2" class="menu-plan-grid">
-							
-								<div class="menu-item">
-									<div class="item-content">
-										
-										<h2 class="menu-title">MSC Fischstäbli</h2>
-										<span class="divider"></span>
-										<p class="menu-description">mit Kräuterkartoffeln<br />
-Lattich mit Safran und Datteln<br />
-<br />
-an der Theke: Mayonnaise</p>
-										<div class="menu-prices prices-3">
-											
-										</div>
-										
-										<span class="menu-provenance">Herkunft Fisch: Wildfang, Nordost Pazifik</span>
-										
-									</div>
-								</div>
-							
-								<div class="menu-item">
-									<div class="item-content">
-										
-										<h2 class="menu-title">Spaghetti Aglio Olio</h2>
-										<span class="divider"></span>
-										<p class="menu-description">mit Knoblauch, Peperoni, Peperoncini, Olivenöl und Petersilie<br />
-<br />
-An der Theke: geriebener Käse</p>
-										<div class="menu-prices prices-3">
-											
-										</div>
-										
-											<div class="menu-labels">
-												
-													
-		<span class="label label-vegan has-infobox">
-			<img class="onlyprint" src="/typo3conf/ext/netv_svm_template/Resources/Public/media/images/icons/print/vegan.png" width="121" height="121" alt="" />
-			<div class="label-info label-vegan ">
-				<a class="close" href="#"><i class="ico-close"></i></a>
-				<div class="inner">
-					<p>Vegan:<br />
-Auf Produkte und Zutaten tierischen Ursprungs wurde vollständig verzichtet.</p>
-					
-						
-						
-						
-						
-							
-						
-					
-				</div>
-			</div>
-		</span>
-	
-												
-												
-											</div>
-										
-										<span class="menu-provenance"></span>
-										
-									</div>
-								</div>
-							
-								<div class="menu-item">
-									<div class="item-content">
-										
-										<h2 class="menu-title">Grünes Thaicurry</h2>
-										<span class="divider"></span>
-										<p class="menu-description">mit Blumenkohl, Karotten, Lauch und Mungosprossen<br />
-Fairtrade Parfumreiskugel</p>
-										<div class="menu-prices prices-3">
-											
-										</div>
-										
-											<div class="menu-labels">
-												
-													
-		<span class="label label-vegan has-infobox">
-			<img class="onlyprint" src="/typo3conf/ext/netv_svm_template/Resources/Public/media/images/icons/print/vegan.png" width="121" height="121" alt="" />
-			<div class="label-info label-vegan ">
-				<a class="close" href="#"><i class="ico-close"></i></a>
-				<div class="inner">
-					<p>Vegan:<br />
-Auf Produkte und Zutaten tierischen Ursprungs wurde vollständig verzichtet.</p>
-					
-						
-						
-						
-						
-							
-						
-					
-				</div>
-			</div>
-		</span>
-	
-												
-												
-											</div>
-										
-										<span class="menu-provenance"></span>
-										
-									</div>
-								</div>
-							
-								<div class="menu-item">
-									<div class="item-content">
-										
-										<h2 class="menu-title">Café Complet</h2>
-										<span class="divider"></span>
-										<p class="menu-description">Naturejoghurt<br />
-Salatbuffet<br />
-und Cerealien<br />
-Hänggibrote<br />
-Kaffee- und Milchgetränke<br />
-Konfiture, Butter und Becel</p>
-										<div class="menu-prices prices-3">
-											
-										</div>
-										
-										<span class="menu-provenance"></span>
-										
-									</div>
-								</div>
-							
-								<div class="menu-item">
-									<div class="item-content">
-										
-										<h2 class="menu-title">Schweins&shy;steak</h2>
-										<span class="divider"></span>
-										<p class="menu-description">mit Jägersauce,<br />
-oder Vegi Hackbällchen mit Sugo,<br />
-Spiralen und<br />
-Blattspinat</p>
-										<div class="menu-prices prices-3">
-											
-										</div>
-										
-										<span class="menu-provenance">Herkunft Fleisch: Schwein, Schweiz</span>
-										
-									</div>
-								</div>
-							
-						</div>
-					
-						<div id="menu-plan-tab3" class="menu-plan-grid">
-							
-								<div class="menu-item">
-									<div class="item-content">
-										
-										<h2 class="menu-title">Rinds&shy;hackbraten</h2>
-										<span class="divider"></span>
-										<p class="menu-description">Rosmarinjus<br />
-Spätzli und<br />
-Blumenkohl mit Tandoori<br />
-<br />
-an der Theke: geriebener Käse</p>
-										<div class="menu-prices prices-3">
-											
-										</div>
-										
-										<span class="menu-provenance">Herkunft Fleisch: Rind, Schweiz</span>
-										
-									</div>
-								</div>
-							
-								<div class="menu-item">
-									<div class="item-content">
-										
-										<h2 class="menu-title">Quinoabowl</h2>
-										<span class="divider"></span>
-										<p class="menu-description">mit Edamame, Granatapfel und Sellerie<br />
-Mangodressing im Weckglas<br />
-garniert mit orientalisch gerösteten Mandeln</p>
-										<div class="menu-prices prices-3">
-											
-										</div>
-										
-											<div class="menu-labels">
-												
-													
-		<span class="label label-onetwowe has-infobox">
-			<img class="onlyprint" src="/typo3conf/ext/netv_svm_template/Resources/Public/media/images/icons/print/onetwowe.png" width="152" height="129" alt="" />
-			<div class="label-info label-onetwowe ">
-				<a class="close" href="#"><i class="ico-close"></i></a>
-				<div class="inner">
-					<p>ONE CLIMATE MENU: <br />
-Klimafreundliche Menus aus dem Nachhaltigkeitspro- gramm ONE TWO WE.</p>
-					
-						
-							
-								<a href="/de/frisch-gesund/#c81260">
-									mehr erfahren
-								</a>
-							
-						
-						
-						
-						
-					
-				</div>
-			</div>
-		</span>
-	
-												
-												
-											</div>
-										
-										<span class="menu-provenance"></span>
-										
-									</div>
-								</div>
-							
-								<div class="menu-item">
-									<div class="item-content">
-										
-										<h2 class="menu-title">Grünes Thaicurry</h2>
-										<span class="divider"></span>
-										<p class="menu-description">mit Blumenkohl, Karotten, Lauch und Mungosprossen<br />
-Fairtrade Parfumreiskugel</p>
-										<div class="menu-prices prices-3">
-											
-										</div>
-										
-											<div class="menu-labels">
-												
-													
-		<span class="label label-vegan has-infobox">
-			<img class="onlyprint" src="/typo3conf/ext/netv_svm_template/Resources/Public/media/images/icons/print/vegan.png" width="121" height="121" alt="" />
-			<div class="label-info label-vegan ">
-				<a class="close" href="#"><i class="ico-close"></i></a>
-				<div class="inner">
-					<p>Vegan:<br />
-Auf Produkte und Zutaten tierischen Ursprungs wurde vollständig verzichtet.</p>
-					
-						
-						
-						
-						
-							
-						
-					
-				</div>
-			</div>
-		</span>
-	
-												
-												
-											</div>
-										
-										<span class="menu-provenance"></span>
-										
-									</div>
-								</div>
-							
-						</div>
-					
-						<div id="menu-plan-tab4" class="menu-plan-grid">
-							
-								<div class="menu-item">
-									<div class="item-content">
-										
-										<h2 class="menu-title">Geschnetzeltes</h2>
-										<span class="divider"></span>
-										<p class="menu-description">vom Schweinshüftchen <br />
-mit Cognacrahmsauce,<br />
-Müscheli und<br />
-Karotten mit Ingwer<br />
-<br />
-an der Theke: geriebener Käse</p>
-										<div class="menu-prices prices-3">
-											
-										</div>
-										
-										<span class="menu-provenance">Herkunft Fleisch: Schwein, Schweiz</span>
-										
-									</div>
-								</div>
-							
-								<div class="menu-item">
-									<div class="item-content">
-										
-										<h2 class="menu-title">Arrancini Siciliana</h2>
-										<span class="divider"></span>
-										<p class="menu-description">Reiskugeln gebacken<br />
-auf Tomatensauce und<br />
-Federkohl mit Kürbis</p>
-										<div class="menu-prices prices-3">
-											
-										</div>
-										
-											<div class="menu-labels">
-												
-													
-		<span class="label label-onetwowe has-infobox">
-			<img class="onlyprint" src="/typo3conf/ext/netv_svm_template/Resources/Public/media/images/icons/print/onetwowe.png" width="152" height="129" alt="" />
-			<div class="label-info label-onetwowe ">
-				<a class="close" href="#"><i class="ico-close"></i></a>
-				<div class="inner">
-					<p>ONE CLIMATE MENU: <br />
-Klimafreundliche Menus aus dem Nachhaltigkeitspro- gramm ONE TWO WE.</p>
-					
-						
-							
-								<a href="/de/frisch-gesund/#c81260">
-									mehr erfahren
-								</a>
-							
-						
-						
-						
-						
-					
-				</div>
-			</div>
-		</span>
-	
-												
-												
-											</div>
-										
-										<span class="menu-provenance"></span>
-										
-									</div>
-								</div>
-							
-								<div class="menu-item">
-									<div class="item-content">
-										
-										<h2 class="menu-title">Tortellini formaggio</h2>
-										<span class="divider"></span>
-										<p class="menu-description">Gefüllt mit Ricotta und Mozzarella<br />
-an Safransauce<br />
-<br />
-an der Theke: geriebener Käse</p>
-										<div class="menu-prices prices-3">
-											
-										</div>
-										
-										<span class="menu-provenance"></span>
-										
-									</div>
-								</div>
-							
-								<div class="menu-item">
-									<div class="item-content">
-										
-										<h2 class="menu-title">Café Complet</h2>
-										<span class="divider"></span>
-										<p class="menu-description">Naturejoghurt<br />
-Salatbuffet<br />
-und Cerealien<br />
-Hänggibrote<br />
-Kaffee- und Milchgetränke<br />
-Konfiture, Butter und Becel</p>
-										<div class="menu-prices prices-3">
-											
-										</div>
-										
-										<span class="menu-provenance"></span>
-										
-									</div>
-								</div>
-							
-								<div class="menu-item">
-									<div class="item-content">
-										
-										<h2 class="menu-title">Köfte oder Falafel</h2>
-										<span class="divider"></span>
-										<p class="menu-description">mit Gurken-Joghurtdip<br />
-dazu Fairtrade Langkornreis und<br />
-gebratenem Kürbis</p>
-										<div class="menu-prices prices-3">
-											
-										</div>
-										
-										<span class="menu-provenance">Herkunft Fleisch: Rind, Schweiz</span>
-										
-									</div>
-								</div>
-							
-						</div>
-					
-						<div id="menu-plan-tab5" class="menu-plan-grid">
-							
-								<div class="menu-item">
-									<div class="item-content">
-										
-										<h2 class="menu-title">Hamburger</h2>
-										<span class="divider"></span>
-										<p class="menu-description">Rindsburger im Sesambun<br />
-mit Pommes frites und<br />
-Brokkoli mit Chili<br />
-<br />
-an der Theke: Ketchup, Mayonnaise, Essiggurkenscheiben und Zwiebelringe</p>
-										<div class="menu-prices prices-3">
-											
-										</div>
-										
-										<span class="menu-provenance">Herkunft Fleisch: Rind, Schweiz</span>
-										
-									</div>
-								</div>
-							
-								<div class="menu-item">
-									<div class="item-content">
-										
-										<h2 class="menu-title">Dampfnudeln</h2>
-										<span class="divider"></span>
-										<p class="menu-description">auf  Vanillesaucenspiegel<br />
-mit Puderzucker bestäubt<br />
-<br />
-Take it yourself:  Aprikosenkompott</p>
-										<div class="menu-prices prices-3">
-											
-										</div>
-										
-										<span class="menu-provenance"></span>
-										
-									</div>
-								</div>
-							
-								<div class="menu-item">
-									<div class="item-content">
-										
-										<h2 class="menu-title">Tortellini formaggio</h2>
-										<span class="divider"></span>
-										<p class="menu-description">Gefüllt mit Ricotta und Mozzarella<br />
-an Safransauce<br />
-<br />
-an der Theke: geriebener Käse</p>
-										<div class="menu-prices prices-3">
-											
-										</div>
-										
-										<span class="menu-provenance"></span>
-										
-									</div>
-								</div>
-							
-								<div class="menu-item">
-									<div class="item-content">
-										
-										<h2 class="menu-title">Café Complet</h2>
-										<span class="divider"></span>
-										<p class="menu-description">Naturejoghurt<br />
-Salatbuffet<br />
-und Cerealien<br />
-Hänggibrote<br />
-Kaffee- und Milchgetränke<br />
-Konfiture, Butter und Becel</p>
-										<div class="menu-prices prices-3">
-											
-										</div>
-										
-										<span class="menu-provenance"></span>
-										
-									</div>
-								</div>
-							
-								<div class="menu-item">
-									<div class="item-content">
-										
-										<h2 class="menu-title">Pouletflügeli</h2>
-										<span class="divider"></span>
-										<p class="menu-description">würzig mariniert<br />
-oder Tofuschnitzel<br />
-mit Sauce Café de Paris,<br />
-Krawättli und<br />
-marinierter Ofenblumenkohl</p>
-										<div class="menu-prices prices-3">
-											
-										</div>
-										
-										<span class="menu-provenance">Herkunft Fleisch: Poulet, Schweiz</span>
-										
-									</div>
-								</div>
-							
-						</div>
-					
-				
-		</div>
-
-		<div class="menu-meta-nav">
-			<ul class="no-bullets is-horizontal">
-				
-					<li>
-						<a href="/uploads/tx_netvsvgmenu_mbs5/27410100/2020W04-de_27410100.pdf" target="_blank">
-							<i class="ico ico-menu1"></i>
-							<span class="text">Menuplan W04</span>
-							<span class="link">pdf</span>
-						</a>
-					</li>
-				
-					<li>
-						<a href="/uploads/tx_netvsvgmenu_mbs5/27410100/2020W05-de_27410100.pdf" target="_blank">
-							<i class="ico ico-menu2"></i>
-							<span class="text">Menuplan W05</span>
-							<span class="link">pdf</span>
-						</a>
-					</li>
-				
-				<li>
-					<a href="#" class="trigger-newsletter">
-						<i class="ico ico-menu-nl"></i>
-						<span class="text">Menu Newsletter</span>
-						<span class="link">Anmelden</span>
-					</a>
-				</li>
-				
-					<li>
-						
-							<a id="menu-plan-cal1" rel="nofollow" href="/de/menuplan/invite-friends/ics/1579654800/">
-								<i class="ico ico-menu-ics"></i>
-								<span class="text">Essen mit Freunden</span>
-								<span class="link">Einladen</span>
-							</a>
-						
-							<a id="menu-plan-cal2" rel="nofollow" href="/de/menuplan/invite-friends/ics/1579741200/">
-								<i class="ico ico-menu-ics"></i>
-								<span class="text">Essen mit Freunden</span>
-								<span class="link">Einladen</span>
-							</a>
-						
-							<a id="menu-plan-cal3" rel="nofollow" href="/de/menuplan/invite-friends/ics/1579827600/">
-								<i class="ico ico-menu-ics"></i>
-								<span class="text">Essen mit Freunden</span>
-								<span class="link">Einladen</span>
-							</a>
-						
-							<a id="menu-plan-cal4" rel="nofollow" href="/de/menuplan/invite-friends/ics/1580086800/">
-								<i class="ico ico-menu-ics"></i>
-								<span class="text">Essen mit Freunden</span>
-								<span class="link">Einladen</span>
-							</a>
-						
-							<a id="menu-plan-cal5" rel="nofollow" href="/de/menuplan/invite-friends/ics/1580173200/">
-								<i class="ico ico-menu-ics"></i>
-								<span class="text">Essen mit Freunden</span>
-								<span class="link">Einladen</span>
-							</a>
-						
-					</li>
-				
-			</ul>
-		</div>
-	</div>
-</div>
-
-<div class="l-constrained l-content">
-	<div class="teaser-otw">
-	<div class="imageholder">
-		<div class="logo">
-			<img src="/typo3conf/ext/netv_svm_onetwowe/Resources/Public/Icons/onetwowe.svg" width="512" height="512" alt="" />
-		</div>
-		
-			<picture>
-				<source srcset="/fileadmin/_processed_/3/b/csm_Rotkohl_60ffd986fb.jpg, /fileadmin/_processed_/3/b/csm_Rotkohl_c8ce295591.jpg 2x" media="(min-width: 48.0625em)">
-				<source srcset="/fileadmin/_processed_/3/b/csm_Rotkohl_31b304ca40.jpg, /fileadmin/_processed_/3/b/csm_Rotkohl_1b16fdf007.jpg 2x" media="(min-width: 26.3125em) and (max-width: 48em)" />
-				<source srcset="/fileadmin/_processed_/3/b/csm_Rotkohl_c6613dd6d0.jpg, /fileadmin/_processed_/3/b/csm_Rotkohl_f4c021dd65.jpg 2x" media="(max-width: 26.25em)">
-				<img src="/fileadmin/_processed_/3/b/csm_Rotkohl_60ffd986fb.jpg" alt="">
-			</picture>
-		
-	</div>
-	<div class="textholder">
-		<p class="meta">
-			Aktuell
-		</p>
-		<div class="title do-dottify">
-			<span class="inner-dottify">
-				Rotkohl
-			</span>
-		</div>
-		<div class="sub-link">
-			<a target="_blank" href="http://www.one-two-we.ch/de/onetwowe/#!aktuell,202">
-				Mehr
-			</a>
-		</div>
-		<div class="link">
-			<a target="_blank" href="http://www.one-two-we.ch/de/onetwowe/">
-				Zur One Two We Website
-			</a>
-		</div>
-	</div>
-</div>
-</div>
-
-
-
-
-
-
-		<div id="newsletter-overlay">
-			<a href="#" class="newsletter-close" data-ajax-url="/de/menuplan/?type=66890"><i></i></a>
-	
-            <div class="newsletter-container">
-                
-                        
-    <style>
-      .newsletter-container {
-        min-width:100%;
-      }
-      #nlSubscribeFrame {
-        width: 1px;
-        min-width: 100%;
-        border: 0;
-      }
-    </style>
-    <iframe src="https://menu-newsletter.sv-group.ch/pl/d1c/9ac7/1367/subscribe/de?id=27410100" id="nlSubscribeFrame"></iframe>
-	<!-- this plugin registered iframe-resizer for RequireJS -->
-	<!-- this plugin registered iframeresize for RequireJS -->
-
-                    
+    <nav class="fixed-top navbar navbar-light bg-white navbar-expand moodle-has-zindex" aria-label="Site-Navigation">
+    
+            <div data-region="drawer-toggle" class="d-inline-block mr-3">
+                <button aria-expanded="false" aria-controls="nav-drawer" type="button" class="btn nav-link float-sm-left mr-1 btn-light bg-gray" data-action="toggle-drawer" data-side="left" data-preference="drawer-open-nav"><i class="icon fa fa-bars fa-fw " aria-hidden="true"  ></i><span class="sr-only">Website-Übersicht</span></button>
             </div>
+    
+            <a href="https://lernportal.gymnasium-immensee.ch" class="navbar-brand has-logo
+                    ">
+                    <span class="logo d-none d-sm-inline">
+                        <img src="https://lernportal.gymnasium-immensee.ch/pluginfile.php/1/core_admin/logocompact/0x0/1577483271/gymnasiumimmensee.png" alt="Gymnasium Immensee">
+                    </span>
+                <span class="site-name d-none d-md-inline">Gymnasium Immensee</span>
+            </a>
+    
+            <ul class="navbar-nav d-none d-md-flex">
+                <!-- custom_menu -->
+                <li class="dropdown nav-item">
+    <a class="dropdown-toggle nav-link" id="drop-down-5e28515fcf0be5e28515fcbc875" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#" aria-controls="drop-down-menu-5e28515fcf0be5e28515fcbc875">
+        Deutsch ‎(de)‎
+    </a>
+    <div class="dropdown-menu" role="menu" id="drop-down-menu-5e28515fcf0be5e28515fcbc875" aria-labelledby="drop-down-5e28515fcf0be5e28515fcbc875">
+                <a class="dropdown-item" role="menuitem" href="https://lernportal.gymnasium-immensee.ch/?lang=de" title="Deutsch ‎(de)‎">Deutsch ‎(de)‎</a>
+                <a class="dropdown-item" role="menuitem" href="https://lernportal.gymnasium-immensee.ch/?lang=en" title="English ‎(en)‎">English ‎(en)‎</a>
+    </div>
+</li>
+                <!-- page_heading_menu -->
+                
+            </ul>
+            <ul class="nav navbar-nav ml-auto">
+                <div class="d-none d-lg-block">
+                <div class="search-input-wrapper nav-link" id="5e28515fcf118"><div role="button" tabindex="0"><i class="icon fa fa-search fa-fw "  title="Suchen" aria-label="Suchen"></i></div><form class="search-input-form" action="https://lernportal.gymnasium-immensee.ch/search/index.php"><label for="id_q_5e28515fcf118" class="accesshide">Suchanfrage eintragen</label><input type="text" name="q" placeholder="Suchen" size="13" tabindex="-1" id="id_q_5e28515fcf118" class="form-control"></input><input type="hidden" name="context" value="2" /></form></div>
+            </div>
+                <!-- navbar_plugin_output -->
+                <li class="nav-item">
+                
+                </li>
+                <!-- user_menu -->
+                <li class="nav-item d-flex align-items-center">
+                    <div class="usermenu"><span class="login">Sie sind nicht angemeldet. (<a href="https://lernportal.gymnasium-immensee.ch/login/index.php">Login</a>)</span></div>
+                </li>
+            </ul>
+            <!-- search_box -->
+    </nav>
+    
 
-		</div>
-	
+    <div id="page" class="container-fluid d-print-block">
+        <header id="page-header" class="row">
+    <div class="col-12 pt-3 pb-3">
+        <div class="card ">
+            <div class="card-body ">
+                <div class="d-flex align-items-center">
+                    <div class="mr-auto">
+                        <div class="page-context-header"><div class="page-header-headings"><h1>Gymnasium Immensee</h1></div></div>
+                    </div>
+
+                    <div class="header-actions-container flex-shrink-0" data-region="header-actions-container">
+                    </div>
+                </div>
+                <div class="d-flex flex-wrap">
+                    <div class="ml-auto d-flex">
+                        
+                    </div>
+                    <div id="course-header">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+        <div id="page-content" class="row pb-3 d-print-block">
+            <div id="region-main-box" class="col-12">
+                <section id="region-main" class="has-blocks mb-3" aria-label="Inhalt">
+
+                    <span class="notifications" id="user-notifications"></span>
+                    <div role="main"><span id="maincontent"></span><a class="skip-block skip" href="#skipcategories">kursbereiche überspringen</a><div id="frontpage-category-names"><h2>Kursbereiche</h2><div class="course_category_tree clearfix frontpage-category-names"><div class="collapsible-actions"><a class="collapseexpand" href="#">Alles aufklappen</a></div><div class="content"><div class="subcategories"><div class="category loaded" data-categoryid="20" data-depth="1" data-showcourses="5" data-type="0"><div class="info"><h3 class="categoryname"><a href="https://lernportal.gymnasium-immensee.ch/course/index.php?categoryid=20">Bildnerisches/Textiles Gestalten</a><span title="Anzahl der Kurse" class="numberofcourse"> (5)</span></h3></div><div class="content"></div></div><div class="category loaded" data-categoryid="8" data-depth="1" data-showcourses="5" data-type="0"><div class="info"><h3 class="categoryname"><a href="https://lernportal.gymnasium-immensee.ch/course/index.php?categoryid=8">Biologie</a><span title="Anzahl der Kurse" class="numberofcourse"> (2)</span></h3></div><div class="content"></div></div><div class="category loaded" data-categoryid="9" data-depth="1" data-showcourses="5" data-type="0"><div class="info"><h3 class="categoryname"><a href="https://lernportal.gymnasium-immensee.ch/course/index.php?categoryid=9">Chemie</a><span title="Anzahl der Kurse" class="numberofcourse"> (6)</span></h3></div><div class="content"></div></div><div class="category loaded" data-categoryid="6" data-depth="1" data-showcourses="5" data-type="0"><div class="info"><h3 class="categoryname"><a href="https://lernportal.gymnasium-immensee.ch/course/index.php?categoryid=6">Deutsch</a><span title="Anzahl der Kurse" class="numberofcourse"> (5)</span></h3></div><div class="content"></div></div><div class="category loaded" data-categoryid="5" data-depth="1" data-showcourses="5" data-type="0"><div class="info"><h3 class="categoryname"><a href="https://lernportal.gymnasium-immensee.ch/course/index.php?categoryid=5">Englisch</a><span title="Anzahl der Kurse" class="numberofcourse"> (17)</span></h3></div><div class="content"></div></div><div class="category loaded" data-categoryid="4" data-depth="1" data-showcourses="5" data-type="0"><div class="info"><h3 class="categoryname"><a href="https://lernportal.gymnasium-immensee.ch/course/index.php?categoryid=4">Französisch</a><span title="Anzahl der Kurse" class="numberofcourse"> (20)</span></h3></div><div class="content"></div></div><div class="category loaded" data-categoryid="3" data-depth="1" data-showcourses="5" data-type="0"><div class="info"><h3 class="categoryname"><a href="https://lernportal.gymnasium-immensee.ch/course/index.php?categoryid=3">Geografie</a><span title="Anzahl der Kurse" class="numberofcourse"> (11)</span></h3></div><div class="content"></div></div><div class="category loaded" data-categoryid="10" data-depth="1" data-showcourses="5" data-type="0"><div class="info"><h3 class="categoryname"><a href="https://lernportal.gymnasium-immensee.ch/course/index.php?categoryid=10">Geschichte</a><span title="Anzahl der Kurse" class="numberofcourse"> (19)</span></h3></div><div class="content"></div></div><div class="category loaded" data-categoryid="22" data-depth="1" data-showcourses="5" data-type="0"><div class="info"><h3 class="categoryname"><a href="https://lernportal.gymnasium-immensee.ch/course/index.php?categoryid=22">Informatik</a><span title="Anzahl der Kurse" class="numberofcourse"> (6)</span></h3></div><div class="content"></div></div><div class="category loaded" data-categoryid="11" data-depth="1" data-showcourses="5" data-type="0"><div class="info"><h3 class="categoryname"><a href="https://lernportal.gymnasium-immensee.ch/course/index.php?categoryid=11">Italienisch</a><span title="Anzahl der Kurse" class="numberofcourse"> (3)</span></h3></div><div class="content"></div></div><div class="category loaded" data-categoryid="25" data-depth="1" data-showcourses="5" data-type="0"><div class="info"><h3 class="categoryname"><a href="https://lernportal.gymnasium-immensee.ch/course/index.php?categoryid=25">Klassenstunde</a><span title="Anzahl der Kurse" class="numberofcourse"> (1)</span></h3></div><div class="content"></div></div><div class="category loaded" data-categoryid="12" data-depth="1" data-showcourses="5" data-type="0"><div class="info"><h3 class="categoryname"><a href="https://lernportal.gymnasium-immensee.ch/course/index.php?categoryid=12">Latein</a><span title="Anzahl der Kurse" class="numberofcourse"> (1)</span></h3></div><div class="content"></div></div><div class="category loaded" data-categoryid="7" data-depth="1" data-showcourses="5" data-type="0"><div class="info"><h3 class="categoryname"><a href="https://lernportal.gymnasium-immensee.ch/course/index.php?categoryid=7">Mathematik</a><span title="Anzahl der Kurse" class="numberofcourse"> (9)</span></h3></div><div class="content"></div></div><div class="category loaded" data-categoryid="1" data-depth="1" data-showcourses="5" data-type="0"><div class="info"><h3 class="categoryname"><a href="https://lernportal.gymnasium-immensee.ch/course/index.php?categoryid=1">Miscellaneous</a><span title="Anzahl der Kurse" class="numberofcourse"> (7)</span></h3></div><div class="content"></div></div><div class="category loaded" data-categoryid="13" data-depth="1" data-showcourses="5" data-type="0"><div class="info"><h3 class="categoryname"><a href="https://lernportal.gymnasium-immensee.ch/course/index.php?categoryid=13">Musik</a><span title="Anzahl der Kurse" class="numberofcourse"> (8)</span></h3></div><div class="content"></div></div><div class="category loaded" data-categoryid="14" data-depth="1" data-showcourses="5" data-type="0"><div class="info"><h3 class="categoryname"><a href="https://lernportal.gymnasium-immensee.ch/course/index.php?categoryid=14">Physik</a><span title="Anzahl der Kurse" class="numberofcourse"> (10)</span></h3></div><div class="content"></div></div><div class="category loaded" data-categoryid="15" data-depth="1" data-showcourses="5" data-type="0"><div class="info"><h3 class="categoryname"><a href="https://lernportal.gymnasium-immensee.ch/course/index.php?categoryid=15">Religion/Philosophie</a><span title="Anzahl der Kurse" class="numberofcourse"> (6)</span></h3></div><div class="content"></div></div><div class="category loaded" data-categoryid="16" data-depth="1" data-showcourses="5" data-type="0"><div class="info"><h3 class="categoryname"><a href="https://lernportal.gymnasium-immensee.ch/course/index.php?categoryid=16">Spanisch</a><span title="Anzahl der Kurse" class="numberofcourse"> (2)</span></h3></div><div class="content"></div></div><div class="category loaded" data-categoryid="17" data-depth="1" data-showcourses="5" data-type="0"><div class="info"><h3 class="categoryname"><a href="https://lernportal.gymnasium-immensee.ch/course/index.php?categoryid=17">Sport</a><span title="Anzahl der Kurse" class="numberofcourse"> (3)</span></h3></div><div class="content"></div></div><div class="category loaded" data-categoryid="19" data-depth="1" data-showcourses="5" data-type="0"><div class="info"><h3 class="categoryname"><a href="https://lernportal.gymnasium-immensee.ch/course/index.php?categoryid=19">Wirtschaft und Recht</a><span title="Anzahl der Kurse" class="numberofcourse"> (15)</span></h3></div><div class="content"></div></div></div></div></div></div><span class="skip-block-to" id="skipcategories"></span><br /><div class="box py-3 mdl-align"><form action="https://lernportal.gymnasium-immensee.ch/search/index.php" id="coursesearch" method="get" class="form-inline">
+    <fieldset class="coursesearchbox invisiblefieldset">
+        <label for="shortsearchbox">Kurse suchen</label>
+        <input id="shortsearchbox" name="q" type="text" size="12" value="" class="form-control">
+        <input name="areaids" type="hidden" value="core_course-course">
+        <button class="btn btn-secondary" type="submit">Start</button>
+            <a class="btn btn-link p-0" role="button"
+                data-container="body" data-toggle="popover"
+                data-placement="right" data-content="&lt;div class=&quot;no-overflow&quot;&gt;&lt;p&gt;Sie können nach mehreren Begriffen gleichzeitig suchen und Ihre Suche steuern&lt;/p&gt;
+
+&lt;ul&gt;&lt;li&gt;Begriff - findet jeden Treffer des Begriffs im Text&lt;/li&gt;
+&lt;li&gt;+Begriff - nur exakte Treffer werden gefunden&lt;/li&gt;
+&lt;li&gt;-Begriff - schließt Treffer aus, die den Begriff enthalten&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt; "
+                data-html="true" tabindex="0" data-trigger="focus">
+              <i class="icon fa fa-question-circle text-info fa-fw "  title="Hilfe für Kurse suchen" aria-label="Hilfe für Kurse suchen"></i>
+            </a>
+    </fieldset>
+</form></div><br /></div>
+                    
+                    
+
+                </section>
+                <section data-region="blocks-column" class="d-print-none" aria-label="Blöcke">
+                    <aside id="block-region-side-pre" class="block-region" data-blockregion="side-pre" data-droptarget="1"><a href="#sb-1" class="sr-only sr-only-focusable">Hauptmenü überspringen</a>
+
+<section id="inst1"
+     class=" block_site_main_menu block list_block  card mb-3"
+     role="complementary"
+     data-block="site_main_menu"
+          aria-labelledby="instance-1-header"
+     >
+
+    <div class="card-body p-3">
+
+            <h5 id="instance-1-header" class="card-title d-inline">Hauptmenü</h5>
 
 
+        <div class="card-text content mt-3">
+            <ul class="unlist"><li class="r0"><div class="column c1"><div class="main-menu-content"><div class="activity"><a class="" onclick="" href="https://lernportal.gymnasium-immensee.ch/mod/forum/view.php?id=13"><img src="https://lernportal.gymnasium-immensee.ch/theme/image.php/boost/forum/1577483271/icon" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">Nachrichten der Website<span class="accesshide " > Forum</span></span></a></div></div></div></li></ul>
+            <div class="footer"></div>
+            
+        </div>
+
+    </div>
+
+</section>
+
+  <span id="sb-1"></span><a href="#sb-3" class="sr-only sr-only-focusable">Kalender überspringen</a>
+
+<section id="inst3"
+     class=" block_calendar_month block  card mb-3"
+     role="complementary"
+     data-block="calendar_month"
+          aria-labelledby="instance-3-header"
+     >
+
+    <div class="card-body p-3">
+
+            <h5 id="instance-3-header" class="card-title d-inline">Kalender</h5>
 
 
+        <div class="card-text content mt-3">
+            <div id="calendar-month-2020-January-5e28515fcbc835e28515fcbc871"  data-template="core_calendar/month_mini"  data-includenavigation="false" data-mini="true">
+    <div id="month-mini-2020-January-5e28515fcbc835e28515fcbc871" class="calendarwrapper" data-courseid="1" data-categoryid="0" data-month="1" data-year="2020" data-day="22" data-view="month">
+        <span class="overlay-icon-container hidden" data-region="overlay-icon-container">
+            <span class="loading-icon icon-no-margin"><i class="icon fa fa-circle-o-notch fa-spin fa-fw "  title="Laden ..." aria-label="Laden ..."></i></span>
+        </span>
+        <table class="minicalendar calendartable">
+            <caption class="calendar-controls">
+                    <h3>
+                        <a href="https://lernportal.gymnasium-immensee.ch/calendar/view.php?view=month&time=1579700575" title="Dieser Monat">Januar 2020</a>
+                    </h3>
+            </caption>
+            <thead>
+              <tr>
+                    <th class="header text-xs-center" scope="col">
+                        <abbr title="Sonntag">So</abbr>
+                    </th>
+                    <th class="header text-xs-center" scope="col">
+                        <abbr title="Montag">Mo</abbr>
+                    </th>
+                    <th class="header text-xs-center" scope="col">
+                        <abbr title="Dienstag">Di</abbr>
+                    </th>
+                    <th class="header text-xs-center" scope="col">
+                        <abbr title="Mittwoch">Mi</abbr>
+                    </th>
+                    <th class="header text-xs-center" scope="col">
+                        <abbr title="Donnerstag">Do</abbr>
+                    </th>
+                    <th class="header text-xs-center" scope="col">
+                        <abbr title="Freitag">Fr</abbr>
+                    </th>
+                    <th class="header text-xs-center" scope="col">
+                        <abbr title="Samstag">Sa</abbr>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr data-region="month-view-week">
+                        <td class="dayblank">&nbsp;</td>
+                        <td class="dayblank">&nbsp;</td>
+                        <td class="dayblank">&nbsp;</td>
+                        <td class="day text-center" data-day-timestamp="1577833200">
+                                1
+                            </td>
+                        <td class="day text-center" data-day-timestamp="1577919600">
+                                2
+                            </td>
+                        <td class="day text-center" data-day-timestamp="1578006000">
+                                3
+                            </td>
+                        <td class="day text-center weekend" data-day-timestamp="1578092400">
+                                4
+                            </td>
+                </tr>
+                <tr data-region="month-view-week">
+                        <td class="day text-center weekend" data-day-timestamp="1578178800">
+                                5
+                            </td>
+                        <td class="day text-center" data-day-timestamp="1578265200">
+                                6
+                            </td>
+                        <td class="day text-center" data-day-timestamp="1578351600">
+                                7
+                            </td>
+                        <td class="day text-center" data-day-timestamp="1578438000">
+                                8
+                            </td>
+                        <td class="day text-center" data-day-timestamp="1578524400">
+                                9
+                            </td>
+                        <td class="day text-center" data-day-timestamp="1578610800">
+                                10
+                            </td>
+                        <td class="day text-center weekend" data-day-timestamp="1578697200">
+                                11
+                            </td>
+                </tr>
+                <tr data-region="month-view-week">
+                        <td class="day text-center weekend" data-day-timestamp="1578783600">
+                                12
+                            </td>
+                        <td class="day text-center" data-day-timestamp="1578870000">
+                                13
+                            </td>
+                        <td class="day text-center" data-day-timestamp="1578956400">
+                                14
+                            </td>
+                        <td class="day text-center" data-day-timestamp="1579042800">
+                                15
+                            </td>
+                        <td class="day text-center" data-day-timestamp="1579129200">
+                                16
+                            </td>
+                        <td class="day text-center" data-day-timestamp="1579215600">
+                                17
+                            </td>
+                        <td class="day text-center weekend" data-day-timestamp="1579302000">
+                                18
+                            </td>
+                </tr>
+                <tr data-region="month-view-week">
+                        <td class="day text-center weekend" data-day-timestamp="1579388400">
+                                19
+                            </td>
+                        <td class="day text-center" data-day-timestamp="1579474800">
+                                20
+                            </td>
+                        <td class="day text-center" data-day-timestamp="1579561200">
+                                21
+                            </td>
+                        <td class="day text-center today" data-day-timestamp="1579647600">
+                                    <a  id="calendar-day-popover-link-1-2020-21-5e28515fcbc835e28515fcbc871" href="https://lernportal.gymnasium-immensee.ch/calendar/view.php?view=day&amp;time=1579647600" data-container="body" data-toggle="popover" data-html="true" data-region="mini-day-link" data-trigger="hover" data-placement="top" data-year="2020" data-month="1" data-courseid="1" data-categoryid="0" data-title="Heute Mittwoch, 22. Januar" data-alternate="Keine Termine vorhanden">22</a>
+    <div class="hidden">
+        
+    </div>
+                            </td>
+                        <td class="day text-center" data-day-timestamp="1579734000">
+                                23
+                            </td>
+                        <td class="day text-center" data-day-timestamp="1579820400">
+                                24
+                            </td>
+                        <td class="day text-center weekend" data-day-timestamp="1579906800">
+                                25
+                            </td>
+                </tr>
+                <tr data-region="month-view-week">
+                        <td class="day text-center weekend" data-day-timestamp="1579993200">
+                                26
+                            </td>
+                        <td class="day text-center" data-day-timestamp="1580079600">
+                                27
+                            </td>
+                        <td class="day text-center" data-day-timestamp="1580166000">
+                                28
+                            </td>
+                        <td class="day text-center" data-day-timestamp="1580252400">
+                                29
+                            </td>
+                        <td class="day text-center" data-day-timestamp="1580338800">
+                                30
+                            </td>
+                        <td class="day text-center" data-day-timestamp="1580425200">
+                                31
+                            </td>
+                        <td class="dayblank">&nbsp;</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+            <div class="footer"></div>
+            
+        </div>
 
-</div></div></main><footer id="l-footer"><div class="l-constrained l-full"><div id="footerbar"><div class="l-constrained l-wide"><div class="footer-navigation-wrap"><span class="footer-title">
-						Mensa Gymnasium Immensee
-					</span><div class="footer-navigation"><nav class="footer-mainnav"><ul class="no-bullets"><li><a href="/de/menuplan/" target="_self" class="act">Menuplan</a></li><li><a href="/de/catering/" target="_self">Catering</a></li><li><a href="/de/frisch-gesund/" target="_self">Frisch &amp; Gesund</a></li><li><a href="/de/ueber-uns/" target="_self">Über uns</a></li></ul></nav><nav class="footer-metanav"><ul class="no-bullets"><li><a href="/de/feedback/" target="_self">Feedback</a></li><li><a href="/de/kontakt/" target="_self">Kontakt</a></li><li><a href="/de/disclaimer/" target="_self">Disclaimer</a></li><li><a href="/de/datenschutzerklaerung/" target="_self">Datenschutzerklärung</a></li></ul></nav></div></div><div class="footer-opening-hours"><span class="footer-title">
-							Öffnungszeiten
-						</span><div class="opening-hours"><p><strong>Frühstück</strong><br/>
-		07.15 - 07.45 Uhr
-	</p><p><strong>Pause</strong><br/>
-		10:30 - 10:50 Uhr
-	</p><p><strong>Mittagessen</strong><br/>
-		11.30 - 12:45 Uhr
-	</p><p><strong>Pause</strong><br/>
-		15.10 - 15.30 Uhr
-	</p><p><strong>Abendessen</strong><br/>
-		17.45 - 18.15 Uhr
-	</p></div></div><div class="footer-logo"><a href="/de/menuplan/"><img src="/typo3conf/ext/netv_svm_template/Resources/Public/media/images/logos/default/logo.svg" alt="logo" /></a></div></div></div><div id="footer-meta"><div class="l-constrained l-wide"><div class="copyright">
-			©&nbsp;<span itemprop="copyrightYear">2020</span>&nbsp;<span itemprop="legalName">Mensa Gymnasium Immensee</span></div></div></div></div></footer></div></div>
-<!-- RequireJS module "jquery.googleanalytics" inserted by typoscript --><script>var gak = 'UA-1431446-17';window.GoogleAnalyticsObject = "__ga__";
-				window.__ga__ = {
-					q: [['create', gak , {'cookieDomain': 'none'}],['set', 'forceSSL', true],['set', 'anonymizeIp', true],['set', 'language', 'de'],['send','pageview']],
-					l: Date.now()
-				};</script>
+    </div>
 
-<script src="/typo3temp/compressor/merged-bbf5a5d7e3ce4120774f1425cca4db31-790f4f443c51efd30c2652947c82f427.js.gzip?1575290612" type="text/javascript"></script>
+</section>
 
+  <span id="sb-3"></span></aside>
+                </section>
+            </div>
+        </div>
+    </div>
+    
+    <div id="nav-drawer" data-region="drawer" class="d-print-none moodle-has-zindex closed" aria-hidden="true" tabindex="-1">
+        <nav class="list-group" aria-label="Website">
+            <ul>
+                    <li>
+                        <a class="list-group-item list-group-item-action active" href="https://lernportal.gymnasium-immensee.ch/" data-key="home" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="1" data-nodetype="1" data-collapse="0" data-forceopen="1" data-isactive="1" data-hidden="0" data-preceedwithhr="0" >
+                            <div class="ml-0">
+                                <div class="media">
+                                        <span class="media-left">
+                                            <i class="icon fa fa-home fa-fw " aria-hidden="true"  ></i>
+                                        </span>
+                                    <span class="media-body font-weight-bold">Startseite</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+            </ul>
+        </nav>
+    </div>
+    <footer id="page-footer" class="py-3 bg-dark text-light">
+        <div class="container">
+            <div id="course-footer"></div>
+    
+    
+            <div class="logininfo">Sie sind nicht angemeldet. (<a href="https://lernportal.gymnasium-immensee.ch/login/index.php">Login</a>)</div>
+            <div class="tool_usertours-resettourcontainer"></div>
+            <div class="sitelink"><a title="Moodle" href="http://moodle.org/"><img src="https://lernportal.gymnasium-immensee.ch/theme/image.php/boost/core/1577483271/moodlelogo_grayhat" alt="Moodle-Logo" /></a></div>
+            <nav class="nav navbar-nav d-md-none" aria-label="Zusätzliches Menü">
+                    <ul class="list-unstyled pt-3">
+                                        <li><a href="#" title="Sprache">Deutsch ‎(de)‎</a></li>
+                                    <li>
+                                        <ul class="list-unstyled ml-3">
+                                                            <li><a href="https://lernportal.gymnasium-immensee.ch/?lang=de" title="Deutsch ‎(de)‎">Deutsch ‎(de)‎</a></li>
+                                                            <li><a href="https://lernportal.gymnasium-immensee.ch/?lang=en" title="English ‎(en)‎">English ‎(en)‎</a></li>
+                                        </ul>
+                                    </li>
+                    </ul>
+            </nav>
+            <a href="https://download.moodle.org/mobile?version=2019111800.06&amp;lang=de&amp;iosappid=633359593&amp;androidappid=com.moodle.moodlemobile">Laden Sie die mobile App</a>
+            <script type="text/javascript">
+//<![CDATA[
+var require = {
+    baseUrl : 'https://lernportal.gymnasium-immensee.ch/lib/requirejs.php/1577483247/',
+    // We only support AMD modules with an explicit define() statement.
+    enforceDefine: true,
+    skipDataMain: true,
+    waitSeconds : 0,
 
-<!-- pageid=9277-->
+    paths: {
+        jquery: 'https://lernportal.gymnasium-immensee.ch/lib/javascript.php/1577483247/lib/jquery/jquery-3.4.1.min',
+        jqueryui: 'https://lernportal.gymnasium-immensee.ch/lib/javascript.php/1577483247/lib/jquery/ui-1.12.1/jquery-ui.min',
+        jqueryprivate: 'https://lernportal.gymnasium-immensee.ch/lib/javascript.php/1577483247/lib/requirejs/jquery-private'
+    },
+
+    // Custom jquery config map.
+    map: {
+      // '*' means all modules will get 'jqueryprivate'
+      // for their 'jquery' dependency.
+      '*': { jquery: 'jqueryprivate' },
+      // Stub module for 'process'. This is a workaround for a bug in MathJax (see MDL-60458).
+      '*': { process: 'core/first' },
+
+      // 'jquery-private' wants the real jQuery module
+      // though. If this line was not here, there would
+      // be an unresolvable cyclic dependency.
+      jqueryprivate: { jquery: 'jquery' }
+    }
+};
+
+//]]>
+</script>
+<script type="text/javascript" src="https://lernportal.gymnasium-immensee.ch/lib/javascript.php/1577483247/lib/requirejs/require.min.js"></script>
+<script type="text/javascript">
+//<![CDATA[
+M.util.js_pending("core/first");require(['core/first'], function() {
+;
+require(["media_videojs/loader"], function(loader) {
+    loader.setUp(function(videojs) {
+        videojs.options.flash.swf = "https://lernportal.gymnasium-immensee.ch/media/player/videojs/videojs/video-js.swf";
+videojs.addLanguage('de', {
+  "Play": "Wiedergabe",
+  "Pause": "Pause",
+  "Replay": "Erneut abspielen",
+  "Current Time": "Aktueller Zeitpunkt",
+  "Duration": "Dauer",
+  "Remaining Time": "Verbleibende Zeit",
+  "Stream Type": "Streamtyp",
+  "LIVE": "LIVE",
+  "Loaded": "Geladen",
+  "Progress": "Status",
+  "Fullscreen": "Vollbild",
+  "Non-Fullscreen": "Kein Vollbild",
+  "Mute": "Ton aus",
+  "Unmute": "Ton ein",
+  "Playback Rate": "Wiedergabegeschwindigkeit",
+  "Subtitles": "Untertitel",
+  "subtitles off": "Untertitel aus",
+  "Captions": "Untertitel",
+  "captions off": "Untertitel aus",
+  "Chapters": "Kapitel",
+  "You aborted the media playback": "Sie haben die Videowiedergabe abgebrochen.",
+  "A network error caused the media download to fail part-way.": "Der Videodownload ist aufgrund eines Netzwerkfehlers fehlgeschlagen.",
+  "The media could not be loaded, either because the server or network failed or because the format is not supported.": "Das Video konnte nicht geladen werden, da entweder ein Server- oder Netzwerkfehler auftrat oder das Format nicht unterstützt wird.",
+  "The media playback was aborted due to a corruption problem or because the media used features your browser did not support.": "Die Videowiedergabe wurde entweder wegen eines Problems mit einem beschädigten Video oder wegen verwendeten Funktionen, die vom Browser nicht unterstützt werden, abgebrochen.",
+  "No compatible source was found for this media.": "Für dieses Video wurde keine kompatible Quelle gefunden.",
+  "Play Video": "Video abspielen",
+  "Close": "Schließen",
+  "Modal Window": "Modales Fenster",
+  "This is a modal window": "Dies ist ein modales Fenster",
+  "This modal can be closed by pressing the Escape key or activating the close button.": "Durch Drücken der Esc-Taste bzw. Betätigung der Schaltfläche \"Schließen\" wird dieses modale Fenster geschlossen.",
+  ", opens captions settings dialog": ", öffnet Einstellungen für Untertitel",
+  ", opens subtitles settings dialog": ", öffnet Einstellungen für Untertitel",
+  ", selected": ", ausgewählt",
+  "captions settings": "Untertiteleinstellungen",
+  "subtitles settings": "Untertiteleinstellungen",
+  "descriptions settings": "Einstellungen für Beschreibungen",
+  "Close Modal Dialog": "Modales Fenster schließen",
+  "Descriptions": "Beschreibungen",
+  "descriptions off": "Beschreibungen aus",
+  "The media is encrypted and we do not have the keys to decrypt it.": "Die Entschlüsselungsschlüssel für den verschlüsselten Medieninhalt sind nicht verfügbar.",
+  ", opens descriptions settings dialog": ", öffnet Einstellungen für Beschreibungen",
+  "Audio Track": "Tonspur",
+  "Text": "Schrift",
+  "White": "Weiß",
+  "Black": "Schwarz",
+  "Red": "Rot",
+  "Green": "Grün",
+  "Blue": "Blau",
+  "Yellow": "Gelb",
+  "Magenta": "Magenta",
+  "Cyan": "Türkis",
+  "Background": "Hintergrund",
+  "Window": "Fenster",
+  "Transparent": "Durchsichtig",
+  "Semi-Transparent": "Halbdurchsichtig",
+  "Opaque": "Undurchsichtig",
+  "Font Size": "Schriftgröße",
+  "Text Edge Style": "Textkantenstil",
+  "None": "Kein",
+  "Raised": "Erhoben",
+  "Depressed": "Gedrückt",
+  "Uniform": "Uniform",
+  "Dropshadow": "Schlagschatten",
+  "Font Family": "Schristfamilie",
+  "Proportional Sans-Serif": "Proportionale Sans-Serif",
+  "Monospace Sans-Serif": "Monospace Sans-Serif",
+  "Proportional Serif": "Proportionale Serif",
+  "Monospace Serif": "Monospace Serif",
+  "Casual": "Zwanglos",
+  "Script": "Schreibeschrift",
+  "Small Caps": "Small-Caps",
+  "Reset": "Zurücksetzen",
+  "restore all settings to the default values": "Alle Einstellungen auf die Standardwerte zurücksetzen",
+  "Done": "Fertig",
+  "Caption Settings Dialog": "Einstellungsdialog für Untertitel",
+  "Beginning of dialog window. Escape will cancel and close the window.": "Anfang des Dialogfensters. Esc bricht ab und schließt das Fenster.",
+  "End of dialog window.": "Ende des Dialogfensters.",
+  "Audio Player": "Audio-Player",
+  "Video Player": "Video-Player",
+  "Progress Bar": "Forschrittsbalken",
+  "progress bar timing: currentTime={1} duration={2}": "{1} von {2}",
+  "Volume Level": "Lautstärkestufe",
+  "{1} is loading.": "{1} wird geladen.",
+  "Seek to live, currently behind live": "Zur Live-Übertragung wechseln. Aktuell wird es nicht live abgespielt.",
+  "Seek to live, currently playing live": "Zur Live-Übertragung wechseln. Es wird aktuell live abgespielt."
+});
+
+    });
+});;
+
+require(['jquery'], function($) {
+    require(['theme_boost/popover'], function() {
+        var target = $("#calendar-day-popover-link-1-2020-21-5e28515fcbc835e28515fcbc871");
+        target.popover({
+            content: function() {
+                var source = target.next().find("> *:not('.hidden')");
+                var content = $('<div>');
+
+                if (source.length) {
+                    content.html(source.clone(false));
+                } else {
+                    content.html(target.data('alternate'));
+                }
+
+                return content.html();
+            }
+        });
+    });
+});
+;
+
+require([
+    'jquery',
+    'core_calendar/selectors',
+    'core_calendar/events',
+], function(
+    $,
+    CalendarSelectors,
+    CalendarEvents
+) {
+
+    $('body').on(CalendarEvents.filterChanged, function(e, data) {
+        M.util.js_pending("month-mini-5e28515fcbc835e28515fcbc871-filterChanged");
+        // A filter value has been changed.
+        // Find all matching cells in the popover data, and hide them.
+        $("#month-mini-2020-January-5e28515fcbc835e28515fcbc871")
+            .find(CalendarSelectors.popoverType[data.type])
+            .toggleClass('hidden', !!data.hidden);
+        M.util.js_complete("month-mini-5e28515fcbc835e28515fcbc871-filterChanged");
+    });
+});
+;
+
+require(['jquery', 'core_calendar/calendar_mini'], function($, CalendarMini) {
+    CalendarMini.init($("#calendar-month-2020-January-5e28515fcbc835e28515fcbc871"), !1);
+});
+;
+
+require(['jquery'], function($) {
+    $('#single_select5e28515fcbc874').change(function() {
+        var ignore = $(this).find(':selected').attr('data-ignore');
+        if (typeof ignore === typeof undefined) {
+            $('#single_select_f5e28515fcbc873').submit();
+        }
+    });
+});
+;
+M.util.js_pending('core/search-input'); require(['core/search-input'], function(amd) {amd.init("5e28515fcf118"); M.util.js_complete('core/search-input');});;
+
+require(['jquery'], function($) {
+    $('#single_select5e28515fcbc877').change(function() {
+        var ignore = $(this).find(':selected').attr('data-ignore');
+        if (typeof ignore === typeof undefined) {
+            $('#single_select_f5e28515fcbc876').submit();
+        }
+    });
+});
+;
+
+M.util.js_pending('theme_boost/loader');
+require(['theme_boost/loader'], function() {
+  M.util.js_complete('theme_boost/loader');
+});
+M.util.js_pending('theme_boost/drawer');
+require(['theme_boost/drawer'], function(mod) {
+    mod.init();
+  M.util.js_complete('theme_boost/drawer');
+});
+;
+M.util.js_pending('core/notification'); require(['core/notification'], function(amd) {amd.init(2, []); M.util.js_complete('core/notification');});;
+M.util.js_pending('core/log'); require(['core/log'], function(amd) {amd.setConfig({"level":"warn"}); M.util.js_complete('core/log');});;
+M.util.js_pending('core/page_global'); require(['core/page_global'], function(amd) {amd.init(); M.util.js_complete('core/page_global');});M.util.js_complete("core/first");
+});
+//]]>
+</script>
+<script type="text/javascript">
+//<![CDATA[
+M.str = {"moodle":{"lastmodified":"Zuletzt ge\u00e4ndert","name":"Name","error":"Fehler","info":"Infos","yes":"Ja","no":"Nein","cancel":"Abbrechen","collapseall":"Alles einklappen","expandall":"Alles aufklappen","confirm":"Best\u00e4tigen","areyousure":"Sind Sie sicher?","closebuttontitle":"Schlie\u00dfen","unknownerror":"Unbekannter Fehler","file":"Datei","url":"URL"},"repository":{"type":"Typ","size":"Gr\u00f6\u00dfe","invalidjson":"Ung\u00fcltiger JSON-Text","nofilesattached":"Keine Datei","filepicker":"Dateiauswahl","logout":"Abmelden","nofilesavailable":"Keine Dateien vorhanden","norepositoriesavailable":"Sie k\u00f6nnen hier zur Zeit keine Dateien hochladen.","fileexistsdialogheader":"Datei bereits vorhanden","fileexistsdialog_editor":"Eine Datei mit diesem Namen wurde bereits an den Text angeh\u00e4ngt, den Sie gerade bearbeiten","fileexistsdialog_filemanager":"Eine Datei mit diesem Namen wurde bereits an den Text angeh\u00e4ngt","renameto":"Nach '{$a}' umbenennen","referencesexist":"{$a} Aliase\/Verkn\u00fcpfungen zu dieser Datei","select":"W\u00e4hlen Sie"},"admin":{"confirmdeletecomments":"M\u00f6chten Sie die Kommentare wirklich l\u00f6schen?","confirmation":"Best\u00e4tigung"},"debug":{"debuginfo":"Debug-Info","line":"Zeile","stacktrace":"Stapelverfolgung"},"langconfig":{"labelsep":":\u00a0"}};
+//]]>
+</script>
+<script type="text/javascript">
+//<![CDATA[
+(function() {Y.use("moodle-filter_mathjaxloader-loader",function() {M.filter_mathjaxloader.configure({"mathjaxconfig":"\nMathJax.Hub.Config({\n    config: [\"Accessible.js\", \"Safe.js\"],\n    errorSettings: { message: [\"!\"] },\n    skipStartupTypeset: true,\n    messageStyle: \"none\"\n});\n","lang":"de"});
+});
+M.util.help_popups.setup(Y);
+Y.use("moodle-course-categoryexpander",function() {Y.Moodle.course.categoryexpander.init();
+});
+ M.util.js_pending('random5e28515fcbc878'); Y.on('domready', function() { M.util.js_complete("init");  M.util.js_complete('random5e28515fcbc878'); });
+})();
+//]]>
+</script>
+
+        </div>
+    </footer>
+</div>
 
 </body>
 </html>
